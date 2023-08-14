@@ -13,7 +13,7 @@ int main(void)
 	while (letter <= 'z')
 	{
 		putchar(letter);
-		first++;
+		letter++;
 	}
 	putchar('\0');
 	return (0);
