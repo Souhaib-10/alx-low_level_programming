@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  * Description: print all alphapet in lowercase
@@ -6,14 +7,14 @@
  */
 int main(void)
 {
-	char first;
+	char letter;
 
-	first = "a";
-	while (first <= "z")
+	letter = 'a';
+	while (first <= 'z')
 	{
-		putchar(first);
+		putchar(letter);
 		first++;
 	}
-	putchar("\0");
+	putchar('\0');
 	return (0);
 }
