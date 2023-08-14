@@ -19,5 +19,6 @@ int main(void)
 		putchar(letter_appercase);
 		letter_appercase++;
 	}
+	putchar('\n');
 	return (0);
 }
