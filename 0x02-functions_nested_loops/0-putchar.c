@@ -9,7 +9,7 @@ int main(void)
 	char word[] = "_putchar";
 	int lettre;
 
-	for (letter = 0; letter < 8; letter++)
+	for (lettre = 0; lettre < 8; lettre++)
 		_putchar(word[lettre]);
 	_putchar('\n');
 
