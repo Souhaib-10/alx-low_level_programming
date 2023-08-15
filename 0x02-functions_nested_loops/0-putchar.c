@@ -8,9 +8,8 @@ int main(void)
 {
 	char word[] = "_putchar";
 	int lettre;
-	int length = strlen(word)
 
-	for (letter = 0; letter < word; letter++)
+	for (letter = 0; letter < 8; letter++)
 		_putchar(word[lettre]);
 	_putchar('\n');
 
