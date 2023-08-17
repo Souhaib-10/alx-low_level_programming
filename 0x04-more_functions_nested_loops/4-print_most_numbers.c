@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_numbers - Entry point
+ * print_most_numbers - Entry point
  * Description: print numbers from 0 to 9
- *              not print 2 and 4
+ * excerption : 2 and 4
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int i;
 
