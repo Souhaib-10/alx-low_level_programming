@@ -3,11 +3,10 @@
  * print_line - Entry point
  * @n: parameter function
  * Description:print number underscore with number provide
+ * Return: nothing just printing
  */
 void print_line(int n)
 {
-	int i;
-
 	while (n > 0)
 	{
 		_putchar('_');
