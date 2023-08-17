@@ -2,7 +2,7 @@
 /**
  * print_numbers - Entry point
  * Description: print numbers from 0 to 9
- * except: 2 and 4
+ *              not print 2 and 4
  */
 void print_numbers(void)
 {
