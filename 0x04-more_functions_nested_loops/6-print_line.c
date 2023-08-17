@@ -2,7 +2,7 @@
 /**
  * print_line - Entry point
  * @n: parameter function
- * Description:print number '-' with number provide
+ * Description:print number underscore with number provide
  */
 void print_line(int n)
 {
