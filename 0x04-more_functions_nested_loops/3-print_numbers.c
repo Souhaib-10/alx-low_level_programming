@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * print_numbers - Entry point
  * Description: print numbers from 0 to 9
