@@ -3,7 +3,7 @@
 /**
  * main -Entry point
  * Return: always 0
- * description : print fizzbuzz or fizz or buzz 
+ * description: print fizzbuzz or fizz or buzz
  */
 
 int main(void)
@@ -32,4 +32,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
