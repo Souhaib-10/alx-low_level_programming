@@ -26,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
 		}
 		if (num == 100)
 		{
@@ -34,6 +34,6 @@ int main(void)
 		}
 		printf(" ");
 	}
-	printf("Buzz\n");
+	printf("\n");
 	return (0);
 }
