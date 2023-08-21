@@ -4,7 +4,7 @@
  * _puts - print string followed by a new line
  * @str: string given to print
  */
-void _puts(char *str)
+void _puts(char str)
 {
-	int puts(const char str);
+	int puts(const char *str);
 }
