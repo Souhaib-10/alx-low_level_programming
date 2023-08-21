@@ -5,3 +5,4 @@ FIle "3-puts.c"function that prints a string, followed by a new line, to stdout
 FIle "4-print_rev.c"function that prints a string, in reverse, followed by a new line.
 File "5-rev_string.c" function that reverses a string.
 File "6-puts2.c"function that prints every other character of a string, starting with the first character, followed by a new line. 
+File "7-puts_half.c"function that prints half of a string, followed by a new line
