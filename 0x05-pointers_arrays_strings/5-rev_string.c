@@ -5,10 +5,14 @@
  */
 void rev_string(char *s)
 {
-	int length = _strlen(s);
-	char reverse_char[length];
-
+	int length;
 	int i, j = 0;
+
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+	char reverse_char[length];
 
 	for (i = length - 1; i >= 0; i--)
 	{
