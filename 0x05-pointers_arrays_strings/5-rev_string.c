@@ -7,6 +7,7 @@ void rev_string(char *s)
 {
 	int length = 0;
 	int i;
+	char reverse_char;
 
 	while (s[length] != '\0')
 	{
@@ -14,8 +15,7 @@ void rev_string(char *s)
 	}
 	for (i = 0; i >= length / 2; i++)
 	{
-		char reverse_char = s[i];
-
+		reverse_char = s[i];
 		s[i] = s[length - 1 - i];
 		s[length - 1 - i] = reverse_char;
 	}
