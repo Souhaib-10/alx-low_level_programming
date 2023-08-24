@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * *_strncat - function to concat
  * *@dest: pointer to destination string.
