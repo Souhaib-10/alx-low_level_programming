@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * strncpy - function that copies a string
  * @dest: pointeur of string
