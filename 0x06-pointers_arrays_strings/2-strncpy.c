@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * strncpy - function that copies a string
+ * *_strncpy - function that copies a string
  * @dest: pointeur of string
  * @src: pointeur of source string to concat
  * @n: number of size
  * Return: pointeur result
  */
-
-char *strncpy(char *dest, const char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
