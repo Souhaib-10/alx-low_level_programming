@@ -1,10 +1,12 @@
 #include "main.h"
-/*
- * _strchr - Locates a character in a string.
- * @s: string parameter
- * @c: character parameter
- * Return: result pointer or Null
- */
+/**
+*_strchr - Returns a pointer s or null
+*
+*@s:string parameter
+*@c:character parameter
+*
+*Return: returns pointer
+*/
 char *_strchr(char *s, char c)
 {
 	int i;
