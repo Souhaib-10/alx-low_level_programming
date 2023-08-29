@@ -8,20 +8,25 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char *h, *n;
+	int i, j;
 
-	while (*haystack)
+	i, j = 0;
+	while (haystack[i])
 	{
-		h = haystack;
-		n = needle;
-		while (*haystack && *n && *haystack == *n)
+		while (needle[j] && (haystack[i] == needle[0]))
 		{
-			haystack++;
-			n++;
+			if (haystack[i + j] == needle[j])
+				j++;
+			else
+				break;
 		}
-		if (!*n)
-			return (h);
-		haystack = h + 1;
+		if (needle[j])
+		{
+			i++;
+			j = 0;
+		}
+		else
+			return (haystack + i);
 	}
-	return (NULL);
+	return (0);
 }
