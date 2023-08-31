@@ -8,10 +8,10 @@
  */
 int is_prime_number(int n)
 {
+	int divisor;
+
 	if (n <= 1)
 		return (0);
-
-	int divisor;
 
 	for (divisor = 2; divisor <= n / 2; divisor++)
 	{
