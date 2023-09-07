@@ -7,11 +7,12 @@
  * @n: The maximum number of bytes from s2 to concatenate.
  *
  * Return: A pointer to the concatenated string, or NULL on failure.
- */ 
+ **/
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
 	unsigned int len1, len2, lconcat, i;
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
