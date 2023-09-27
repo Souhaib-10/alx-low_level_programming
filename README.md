@@ -1,2 +1,2 @@
-Folder 0x00-hello_world first work and coding with language c \n
-FILE "0-object_like_macro.h" header file that defines a macro named SIZE as an abbreviation for the token 1024.
+
+File "0-print_listint.c" function that prints all the elements of a listint_t list.
