@@ -8,26 +8,34 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, write_result;
-	mode_t file_permissions = S_IRUSR | S_IWUSR;
+	int fd_open, fd_write;
 
 	if (filename == NULL)
 		return (-1);
-
-	fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, file_permissions);
-	if (fd == -1)
+	fd_open = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);
+	if (fd_open == -1)
 		return (-1);
-
 	if (text_content != NULL)
 	{
-		write_result = write(fd, text_content, strlen(text_content));
-		if (write_result == -1)
-		{
-			close(fd);
+		fd_write = write(fd_open, text_content, _strlen(text_content));
+		if (fd_write == -1)
 			return (-1);
-		}
 	}
-
-	close(fd);
+	close(fd_open);
 	return (1);
+}
+
+/**
+ * _strlen - calculate the lenght of a string.
+ * @str: array of characters.
+ *
+ * Return: lenght of the string.
+ */
+int _strlen(char *str)
+{
+	int count = 0;
+
+	while (*str++)
+		count++;
+	return (count);
 }
