@@ -1,4 +1,4 @@
-#include "lists"
+#include "lists.h"
 /**
  * get_dnodeint_at_index - Get the nth node of a doubly linked list
  * @head: Pointer to the first node in the linked list
